@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5975CF1B153E1900C7B022 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5975CC1B153E1900C7B022 /* BFPaperButton.m */; };
+		7A5975D01B153E1900C7B022 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5975CE1B153E1900C7B022 /* UIColor+BFPaperColors.m */; };
 		7A5EACD51B1525D900566C7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EACD41B1525D900566C7A /* main.m */; };
 		7A5EACD81B1525D900566C7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EACD71B1525D900566C7A /* AppDelegate.m */; };
 		7A5EACDB1B1525D900566C7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EACDA1B1525D900566C7A /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A5975CB1B153E1900C7B022 /* BFPaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperButton.h; sourceTree = "<group>"; };
+		7A5975CC1B153E1900C7B022 /* BFPaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperButton.m; sourceTree = "<group>"; };
+		7A5975CD1B153E1900C7B022 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		7A5975CE1B153E1900C7B022 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
 		7A5EACCF1B1525D900566C7A /* MaterialDesignDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesignDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5EACD31B1525D900566C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5EACD41B1525D900566C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +96,10 @@
 				7A5EACDA1B1525D900566C7A /* ViewController.m */,
 				7A5EACF81B1528A400566C7A /* MDDatePicker.h */,
 				7A5EACF91B1528A400566C7A /* MDDatePicker.m */,
+				7A5975CB1B153E1900C7B022 /* BFPaperButton.h */,
+				7A5975CC1B153E1900C7B022 /* BFPaperButton.m */,
+				7A5975CD1B153E1900C7B022 /* UIColor+BFPaperColors.h */,
+				7A5975CE1B153E1900C7B022 /* UIColor+BFPaperColors.m */,
 				7A5EACDC1B1525D900566C7A /* Main.storyboard */,
 				7A5EACDF1B1525D900566C7A /* Images.xcassets */,
 				7A5EACE11B1525D900566C7A /* LaunchScreen.xib */,
@@ -224,8 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5975D01B153E1900C7B022 /* UIColor+BFPaperColors.m in Sources */,
 				7A5EACDB1B1525D900566C7A /* ViewController.m in Sources */,
 				7A5EACD81B1525D900566C7A /* AppDelegate.m in Sources */,
+				7A5975CF1B153E1900C7B022 /* BFPaperButton.m in Sources */,
 				7A5EACFA1B1528A400566C7A /* MDDatePicker.m in Sources */,
 				7A5EACD51B1525D900566C7A /* main.m in Sources */,
 			);
@@ -424,6 +436,7 @@
 				7A5EACF41B1525D900566C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A5EACF51B1525D900566C7A /* Build configuration list for PBXNativeTarget "MaterialDesignDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				7A5EACF71B1525D900566C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

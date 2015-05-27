@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MDDatePickerDelegate
+
+- (void)confirmButtonClicked;
+- (void)cancelButtonClicked;
+
+@end
+
 @interface MDDatePicker : UIView
+
+@property(nonatomic,strong)id<MDDatePickerDelegate> delegate;
+
+-(void)show;
+-(void)dismiss;
 
 @end
