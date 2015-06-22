@@ -1,6 +1,7 @@
 # Material design AlertView
-DatePicker in material design,support iOS 7 and above.     
-![](http://ww3.sinaimg.cn/large/81e9aa8bjw1es63p9mq7wg20ac0i91kx.gif)    
+DatePicker in material design,support iOS 7 and above.    
+That is what I want,developing...
+![](http://ww1.sinaimg.cn/large/81e9aa8bjw1etcw4raw2jj21680o00uj.jpg)  
 
 
 ## Usage
